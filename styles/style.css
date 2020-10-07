@@ -2,6 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_start {
+    display: flex;
+    align-items: center;
+}
+
+.menu-hamburger, .logo {
+    margin: 0 12px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+main {
+    background-color: #181818;
 }
 
 /* 
