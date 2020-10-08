@@ -33,6 +33,12 @@ header {
     padding: 0 107px;
 }
 
+.pesquisa img {
+    width: 30px;
+    position: absolute;
+    float: right;
+}
+
 .pesquisa input[placeholder] {
     padding: 5px;
     font-size: 100%;
@@ -44,6 +50,7 @@ header {
     border: 1px solid #3F434C;
     width: 570px;
     height: 28px;
+    background-image: url(/img/teclado.png);
 }
 
 .btn-pesq {
@@ -53,6 +60,10 @@ header {
     background-color: #3F434C;
     border: none;
     cursor: pointer;
+}
+
+.fa {
+    color: #989898;
 }
 
 main {
