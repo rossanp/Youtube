@@ -73,7 +73,7 @@ header {
     cursor: pointer;
 }
 
-.fa {
+.pesquisa .fa {
     color: #585858;
 }
 
@@ -97,5 +97,19 @@ main {
         cursor: pointer;
     }
 
-    
+    .header_end {
+        display: flex;
+        justify-self: self-end;
+        align-items: center;
+    }
+
+    .end-icons {
+        padding: 0 15px;
+    }
+
+    .header_end img {
+        width: 30px;
+        border-radius: 20px;
+    }
+
   }
