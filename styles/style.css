@@ -1,3 +1,14 @@
+/* 
+Cores de fundo:
+    Header: #202020
+    Main: #181818
+    Pesquisa: #3F434C
+    
+Cores dos letras:
+    Títulos: #FFFFFF
+    Youtuber, Visualizações e tempo: #AAAAAA
+*/
+
 * {
     padding: 0;
     margin: 0;
@@ -70,13 +81,45 @@ main {
     background-color: #181818;
 }
 
-/* 
-Cores de fundo:
-    Header: #202020
-    Main: #181818
-    Pesquisa: #3F434C
+@media only screen and (max-width: 1360px) {
+    .header_center {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 0 0;
+    }
     
-Cores dos letras:
-    Títulos: #FFFFFF
-    Youtuber, Visualizações e tempo: #AAAAAA
-*/
+     .pesquisa img {
+        width: 20px;
+        right: 33%;
+        margin: 8px -10px;
+        color: #CFCFCF;
+        cursor: pointer;
+    } 
+    
+/*    .pesquisa input[placeholder] {
+        padding: 5px;
+        font-size: 100%;
+    }
+    
+    .inp-text {
+        background-color: #181818;
+        border-style: none;
+        border: 1px solid #3F434C;
+        width: 570px;
+        height: 28px;
+    }*/
+    
+    .btn-pesq {
+        width: 60px;
+        height: 28px;
+        float: right;
+        background-color: #323232;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .fa {
+        color: #585858;
+    }
+  }
