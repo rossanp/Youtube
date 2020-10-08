@@ -68,13 +68,13 @@ header {
     width: 60px;
     height: 28px;
     float: right;
-    background-color: #3F434C;
+    background-color: #323232;
     border: none;
     cursor: pointer;
 }
 
 .fa {
-    color: #989898;
+    color: #585858;
 }
 
 main {
@@ -95,31 +95,7 @@ main {
         margin: 8px -10px;
         color: #CFCFCF;
         cursor: pointer;
-    } 
-    
-/*    .pesquisa input[placeholder] {
-        padding: 5px;
-        font-size: 100%;
     }
+
     
-    .inp-text {
-        background-color: #181818;
-        border-style: none;
-        border: 1px solid #3F434C;
-        width: 570px;
-        height: 28px;
-    }*/
-    
-    .btn-pesq {
-        width: 60px;
-        height: 28px;
-        float: right;
-        background-color: #323232;
-        border: none;
-        cursor: pointer;
-    }
-    
-    .fa {
-        color: #585858;
-    }
   }
