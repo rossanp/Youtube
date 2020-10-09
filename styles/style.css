@@ -30,7 +30,7 @@ header {
 }
 
 .menu-hamburger, .logo {
-    margin: 0 12px;
+    margin: 0 0 0 25px;
 }
 
 .logo img {
@@ -48,7 +48,7 @@ header {
     width: 30px;
     position: absolute;
     right: 40%;
-    margin: 6px -4px;
+    margin: 6px 7px;
 }
 
 .pesquisa input[placeholder] {
@@ -85,10 +85,7 @@ header {
 
 .end-icons {
     padding: 0 30px 0 0;
-}
-
-.img-camera {
-    width: 35px;
+    font-size: 0.9rem;
 }
 
 .icon-user {
@@ -97,7 +94,28 @@ header {
 }
 
 main {
+    display: grid;
     background-color: #181818;
+    grid-template-columns: 13% 87%;
+}
+
+.menu_lateral {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: auto;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.conteudo {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 @media only screen and (max-width: 1360px) {
