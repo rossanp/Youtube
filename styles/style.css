@@ -107,9 +107,31 @@ main {
 }
 
 .lateral {
-    display: flex;
+    display: grid;
     flex-direction: column;
     width: 100%;
+    grid-template-columns: 20% 80%;
+}
+
+.lateral a {
+    display: flex;
+    height: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.lateral hr {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top: 5px;
+    color: #313131;
+    background-color: #313131;
+}
+
+.lateral a:hover {
+    font-weight: bold;
+    background-color: #313131;
 }
 
 .conteudo {
