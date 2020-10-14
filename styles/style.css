@@ -141,7 +141,7 @@ main {
 
 .empresa {
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 500; /* Colocando uma expessura maior na font pela numeração do site expecificado */
 }
 
 .empresa a {
