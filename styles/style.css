@@ -121,6 +121,7 @@ main {
 
 .hr {
     border-top: 1px solid #313131;
+    margin: 15px;
 }
 
 .lateral a:hover {
