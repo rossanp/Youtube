@@ -14,6 +14,8 @@ Cores dos letras:
     margin: 0;
     box-sizing: border-box;
     color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 header {
@@ -112,11 +114,19 @@ main {
     width: 100%;
 }
 
-.lateral a {
+.principal {
+    font-size: 0.9rem;
+}
+
+.principal a {
     padding: 0 0 0 60px;
     height: 40px;
     display: flex;
     align-items: center;
+}
+
+.inscricoes, .mais_ytb {
+    padding: 0 24px 0;
 }
 
 .hr {
@@ -124,15 +134,40 @@ main {
     margin: 15px;
 }
 
-.lateral a:hover {
+.principal a:hover {
     font-weight: bold;
     background-color: #313131;
+}
+
+.empresa {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.empresa a {
+    padding: 0;
+    width: 0;
+    height: auto;
+    margin-right: 8px;
+    color: #CFCFCF;
+}
+
+.sobre {
+    padding: 16px 24px 0;
+}
+
+.termo {
+    padding: 12px 24px 0;
 }
 
 .conteudo {
     display: flex;
     grid-column-start: 2;
     grid-column-end: 3;
+}
+
+.footer {
+    padding: 22px 48px 0;
 }
 
 @media only screen and (max-width: 1360px) {
