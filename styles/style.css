@@ -19,6 +19,12 @@ Cores dos letras:
 }
 
 header {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
     background-color: #202020;
     display: grid;
     grid-template-columns: 25% 50% 25%;
