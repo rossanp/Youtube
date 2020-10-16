@@ -111,7 +111,9 @@ main {
 .lateral {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
 }
 
 .principal {
