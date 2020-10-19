@@ -177,6 +177,11 @@ main {
     height: 93vh;
 }
 
+.conteudo-video {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .footer {
     padding: 22px 48px 0;
 }
