@@ -180,6 +180,13 @@ main {
 .conteudo-video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.video iframe {
+    height: 200px;
+    width: 360px;
 }
 
 .footer {
