@@ -120,7 +120,7 @@ main {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 93vh;
+    height: 94vh;
     overflow: auto;
 }
 
@@ -174,14 +174,16 @@ main {
     display: flex;
     grid-column-start: 2;
     grid-column-end: 3;
-    height: 93vh;
+    height: 94vh;
+    padding-top: 55px;
 }
 
 .conteudo-video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 50px;
+    /* margin-top: 55px; */
     margin-left: 80px;
+    margin-right: 80px;
 }
 
 .video iframe {
