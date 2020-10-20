@@ -102,6 +102,13 @@ header {
     border-radius: 20px;
 }
 
+.icon-ytbr {
+    margin: 5px 0 0 0;
+    width: 40px;
+    height: 35px;
+    border-radius: 20px;
+}
+
 main {
     display: grid;
     background-color: #181818;
@@ -179,10 +186,6 @@ main {
     padding-top: 55px;
 }
 
-.conteudo.fixed {
-    
-}
-
 .conteudo-video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -193,6 +196,14 @@ main {
 .video iframe {
     height: 200px;
     width: 360px;
+}
+
+.youtuber p {
+    padding: 5px 0 0 4px;
+}
+
+.youtuber {
+    display: flex;
 }
 
 .footer {
