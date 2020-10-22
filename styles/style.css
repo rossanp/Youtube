@@ -211,6 +211,7 @@ main {
 .video small  {
     margin-left: 45px;
     color: #AAAAAA;
+    font-size: 0.9rem;
 }
 
 .video a {
