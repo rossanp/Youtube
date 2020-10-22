@@ -195,6 +195,7 @@ main {
 
 .video {
     margin-bottom: 85px;
+    margin-right: 15px;
 }
 
 .video iframe {
@@ -204,10 +205,26 @@ main {
 
 .youtuber p {
     padding: 5px 0 0 4px;
+    font-weight: 500;
+}
+
+.video small  {
+    margin-left: 45px;
+    color: #AAAAAA;
+}
+
+.video a {
+    color: #AAAAAA;
+}
+
+.video a:hover {
+    font-weight: normal;
+    color: #FFFFFF;
 }
 
 .youtuber {
     display: flex;
+    max-width: 360px;
 }
 
 .footer {
