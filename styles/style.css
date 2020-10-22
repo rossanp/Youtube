@@ -144,6 +144,13 @@ main {
     align-items: center;
 }
 
+.icon-user-lateral {
+    position: absolute;
+    width: 25px;
+    border-radius: 20px;
+    left: 20px;
+}
+
 .inscricoes, .mais_ytb {
     padding: 0 24px 0;
 }
