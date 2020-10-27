@@ -38,10 +38,6 @@ header {
     grid-column-end: 2;
 }
 
-/* #esconder {
-    display: none;
-} */
-
 .menu-hamburger, .logo {
     margin: 0 0 0 25px;
 }
@@ -125,11 +121,6 @@ main {
     grid-column-start: 1;
     grid-column-end: 2;
     width: auto;
-}
-
-#esconder:checked ~ #menu_lateral {
-    position: none;
-    display: none;
 }
 
 #lateral, #menu_lateral {
