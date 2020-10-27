@@ -38,7 +38,7 @@ header {
     grid-column-end: 2;
 }
 
-/* #check {
+/* #esconder {
     display: none;
 } */
 
@@ -120,18 +120,23 @@ main {
     margin-top: 56px;
 }
 
-.menu_lateral {
+#menu_lateral {
     position: fixed;
-    display: flex;
     grid-column-start: 1;
     grid-column-end: 2;
     width: auto;
 }
 
+#esconder:checked ~ #menu_lateral {
+    position: none;
+    display: none;
+}
 
-
-.lateral {
+#lateral, #menu_lateral {
     display: flex;
+}
+
+#lateral {
     flex-direction: column;
     position: absolute;
     height: 94vh;
