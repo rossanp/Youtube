@@ -123,7 +123,8 @@ main {
     width: auto;
 }
 
-#lateral, #menu_lateral {
+#lateral, 
+#menu_lateral {
     display: flex;
 }
 
