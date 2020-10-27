@@ -15,6 +15,7 @@ Cores dos letras:
     box-sizing: border-box;
     color: #FFFFFF;
     text-decoration: none;
+    list-style: none;
     font-family: 'Roboto', Arial, sans-serif;
 }
 
@@ -97,6 +98,11 @@ header {
     font-size: 0.9rem;
 }
 
+.icons_menu_menor {
+    width: 25px;
+    background-color: white;
+}
+
 .icon-user {
     width: 30px;
     border-radius: 20px;
@@ -140,7 +146,7 @@ main {
 }
 
 #lateral_menor li {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin: 25px 15px;
 }
 
