@@ -1,6 +1,7 @@
 /* Fazendo o menu lateral se esconder */
 var checkbox = document.querySelector('#esconder');
 
+/* Escondendo o menu lateral maior e aparecendo o menor */
 checkbox.addEventListener('click', function () {
 
     var menu = document.querySelector('#lateral');
@@ -11,3 +12,5 @@ checkbox.addEventListener('click', function () {
         menu.style.display = 'none';
     }
 })
+
+/* Escondendo o menu lateral menor e aparecendo o maior */
