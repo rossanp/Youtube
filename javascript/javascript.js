@@ -1,11 +1,13 @@
 /* Fazendo o menu lateral se esconder */
-var checkbox = document.getElementById('esconder')
-var menu = document.getElementById('lateral')
+var checkbox = document.querySelector('#esconder');
 
-checkbox.addEventListener('click', function() {
-    if (checkbox.style.display === 'flex') {
-        menu.style.display = 'none';
-    } else {
+checkbox.addEventListener('click', function () {
+
+    var menu = document.querySelector('#lateral');
+
+    if (menu.style.display === 'none') {
         menu.style.display = 'flex';
+    } else {
+        menu.style.display = 'none';
     }
 })
