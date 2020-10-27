@@ -38,6 +38,10 @@ header {
     grid-column-end: 2;
 }
 
+/* #check {
+    display: none;
+} */
+
 .menu-hamburger, .logo {
     margin: 0 0 0 25px;
 }
@@ -123,6 +127,8 @@ main {
     grid-column-end: 2;
     width: auto;
 }
+
+
 
 .lateral {
     display: flex;
