@@ -126,6 +126,22 @@ main {
 #lateral, 
 #menu_lateral {
     display: flex;
+    transition: 0.7 ease-in-out;
+}
+
+#lateral_menor {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    height: 94vh;
+    width: max-content;
+    overflow: auto;
+    background-color: #202020;
+}
+
+#lateral_menor li {
+    font-size: 0.9rem;
+    margin: 25px 15px;
 }
 
 #lateral {
