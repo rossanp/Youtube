@@ -39,6 +39,10 @@ header {
     grid-column-end: 2;
 }
 
+.header_start input {
+    display: none;
+}
+
 .menu-hamburger, .logo {
     margin: 0 0 0 25px;
 }
@@ -100,7 +104,6 @@ header {
 
 .icons_menu_menor {
     width: 25px;
-    background-color: white;
 }
 
 .icon-user {
@@ -148,6 +151,8 @@ main {
 #lateral_menor li {
     font-size: 0.6rem;
     margin: 25px 15px;
+    display: grid;
+    justify-items: center;
 }
 
 #lateral {
