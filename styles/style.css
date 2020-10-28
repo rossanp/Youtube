@@ -103,7 +103,8 @@ header {
 }
 
 .icons_menu_menor {
-    width: 25px;
+    width: 20px;
+    margin-bottom: 10px;
 }
 
 .icon-user {
@@ -135,7 +136,6 @@ main {
 #lateral, 
 #menu_lateral {
     display: flex;
-    transition: 0.7 ease-in-out;
 }
 
 #lateral_menor {
@@ -150,7 +150,12 @@ main {
 
 #lateral_menor li {
     font-size: 0.6rem;
-    margin: 25px 15px;
+    display: grid;
+    justify-items: center;
+}
+
+#lateral_menor a {
+    padding: 17px 14px;
     display: grid;
     justify-items: center;
 }
@@ -202,7 +207,7 @@ main {
     margin: 15px;
 }
 
-.principal a:hover {
+.principal a:hover ,#lateral_menor li:hover {
     font-weight: bold;
     background-color: #313131;
 }

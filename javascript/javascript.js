@@ -15,5 +15,3 @@ checkbox.addEventListener('click', function () {
         menu_menor.style.display = 'flex'
     }
 })
-
-/* Escondendo o menu lateral menor e aparecendo o maior */
