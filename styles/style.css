@@ -172,10 +172,12 @@ main {
 .lateral::-webkit-scrollbar-track {
     background-color: #202020;
 }
+
 .lateral::-webkit-scrollbar {
     width: 8px;
     background: #F4F4F4;
 }
+
 .lateral::-webkit-scrollbar-thumb {
     background: #313131;
 }
@@ -243,8 +245,13 @@ main {
 .conteudo-video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: 0 80px;
+}
+
+#conteudo-video-max {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 -150px;
 }
 
 .video {
@@ -252,9 +259,19 @@ main {
     margin-right: 15px;
 }
 
+#video-max {
+    margin-bottom: 75px;
+    margin-right: 0px;
+}
+
 .video iframe {
     height: 200px;
     width: 360px;
+}
+
+#video-max iframe {
+    height: 190px;
+    width: 345px;
 }
 
 .youtuber p {
