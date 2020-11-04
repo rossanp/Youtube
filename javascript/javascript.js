@@ -5,7 +5,9 @@ checkbox.addEventListener('click', function () {
     var menu = document.getElementById("lateral");
     var menu_menor = document.getElementById("lateral_menor");
     var conteudo = document.getElementById("conteudoVideo");
-    var video = document.getElementById("video");
+    var video = document.getElementsByClassName("video");
+    // pode usar a função 'querySelector' também, aí quando for classe é só colocar '.' e id '#' 
+    //let video = document.querySelector(".video")
 
     if (menu.style.display === 'none') {
         menu.style.display = 'flex';
