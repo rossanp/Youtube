@@ -127,7 +127,7 @@ main {
 }
 
 #menu_lateral {
-    position: fixed;
+    position: absolute;
     grid-column-start: 1;
     grid-column-end: 2;
     width: auto;
@@ -141,7 +141,7 @@ main {
 #lateral_menor {
     display: none;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     height: 94vh;
     width: max-content;
     overflow: auto;
@@ -162,7 +162,7 @@ main {
 
 #lateral {
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     height: 94vh;
     width: max-content;
     overflow: auto;

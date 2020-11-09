@@ -11,15 +11,17 @@ checkbox.addEventListener('click', function () {
         menu.style.display = 'flex';
         menu_menor.style.display = 'none';
         conteudo.className = 'conteudo-video';
-        while (video.className.length = 'video-max') {
-            video.className = 'video';
-          }
+        /* video.className = 'video'; */
     } else {
         menu.style.display = 'none';
         menu_menor.style.display = 'flex';
         conteudo.className = 'conteudo-video-max';
-        while (video.className.length = 'video') {
-            video.className = 'video-max';
-          }
+        /* video.className = 'video-max'; */
     }
+
+/*     if (video.className === 'video') {
+        for (let i = 0; i < video.className.length; i++) {
+            video.className = 'video-max';
+        }
+    } */
 })
