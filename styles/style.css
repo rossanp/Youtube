@@ -248,7 +248,7 @@ main {
     margin: 0 80px;
 }
 
-#conteudo-video-max {
+.conteudo-video-max {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 0 -150px;
@@ -259,7 +259,7 @@ main {
     margin-right: 15px;
 }
 
-#video-max {
+.video-max {
     margin-bottom: 75px;
     margin-right: 0px;
 }
