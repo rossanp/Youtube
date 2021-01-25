@@ -8,7 +8,8 @@ checkbox.addEventListener('click', function () {
     let menu_menor = document.getElementById("lateral_menor");
     let conteudo = document.getElementById("conteudoVideo");
     let video = document.getElementById("video");
-    let iframe = document.getElementById("iframe");
+    let imgVideo = document.querySelectorAll(".img-video");
+    let imgVideo1 = document.querySelectorAll(".img-video1");
 
     /* Modificando o CSS */
     if (menu.style.display === 'none') {
@@ -16,24 +17,22 @@ checkbox.addEventListener('click', function () {
         menu_menor.style.display = 'none';
         conteudo.className = 'conteudo-video';
         video.style.marginRight = '15px';
-        /* video.remove.style.width = "min-content"; */
-        iframe.style.width= '345px';
-        /* for(x = 0; x < iframe.length; x++){
-            iframe[x].style.height= '190px';
-            iframe[x].style.width= '360px';
-        } */
+        video.style.marginBottom = '50px';
+        for(x = 0; x < imgVideo1.length; x++){
+            imgVideo1[x].className = 'img-video';
+        }
     } else {
         menu.style.display = 'none';
         menu_menor.style.display = 'flex';
         conteudo.className = 'conteudo-video-max';
         video.style.marginRight = '10px';
-        video.add.style.width = "min-content";
-        iframe.style.width= '345px';
-        /* for(x = 0; x < iframe.length; x++){
-            iframe[x].style.height= '190px';
-            iframe[x].style.width= '345px';
-        } */
+        video.style.marginBottom = '66px';
+        for(x = 0; x < imgVideo.length; x++){
+            imgVideo[x].className = 'img-video1';
+        }
     }
+    //console.log(checkbox);
+    
 })
 
 /*
