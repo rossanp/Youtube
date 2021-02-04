@@ -1,14 +1,3 @@
-/* 
-Cores de fundo:
-    Header: #202020
-    Main: #181818
-    Pesquisa: #3F434C
-    
-Cores dos letras:
-    Títulos: #FFFFFF
-    Youtuber, Visualizações e tempo: #AAAAAA
-*/
-
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +28,7 @@ header {
     grid-column-end: 2;
 }
 
-.header_start input {
+.header_start input, .header_end input {
     display: none;
 }
 
@@ -117,6 +106,59 @@ header {
     width: 40px;
     height: 40px;
     border-radius: 20px;
+}
+
+.dp_user {
+    display: none;
+    position: absolute;
+    top: 49px;
+    background-color: #202020;
+    right: 18px;
+    padding: 18px 0 0 0;
+    width: 300px;
+    border-right: 1px #313131 solid;
+    border-left: 1px #313131 solid;
+    border-bottom: 1px #313131 solid;
+}
+
+.dp_user li, .icon-user {
+    cursor: pointer;
+}
+
+.dp_user li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.user{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-left: 16px;
+}
+
+.user img {
+    display: flex;
+    align-content: center;
+    width: 40px;
+}
+
+.dados_user a, .dados_user p {
+    font-size: 0.8rem;
+}
+
+.hr_user:nth-child(2) {
+    border-top: 1px solid #313131;
+    margin: 15px 0 0 0;
+}
+
+.hr_user {
+    border-top: 1px solid #313131;
+}
+
+.restrito li {
+    padding: 15px;
 }
 
 main {

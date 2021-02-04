@@ -1,7 +1,8 @@
 /* Buscando o estado do checkbox */
 var checkbox = document.querySelector('#esconder');
+var checkboxUser = document.querySelector('#user_esconder');
 
-/* Criando a função ao ouvir o checkbox */
+/* Criando a função ao ouvir o checkbox, esconder e aparecer a barra lateral */
 checkbox.addEventListener('click', function () {
 
     let menu = document.getElementById("lateral");
@@ -31,10 +32,17 @@ checkbox.addEventListener('click', function () {
             imgVideo[x].className = 'img-video1';
         }
     }
-    //console.log(checkbox);
-    
 })
 
-/*
+/* Criando a função ao ouvir o checkbox, esconder e aparecer o menu de usuário */
+checkboxUser.addEventListener('click', function () {
 
-*/
+    let userDisplay = document.getElementById("dp_user");
+
+    /* Modificando o CSS */
+    if (userDisplay.style.display === 'grid') {
+        userDisplay.style.display = 'none';
+    } else {
+        userDisplay.style.display = 'grid';
+    }
+})
