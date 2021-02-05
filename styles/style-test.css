@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    max-width: 100vw;
+    max-height: 100vh
+}
+/* Header */
+header {
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 9%;
+    position: fixed;
+    /* top: 0; */
+    background-color: #202020;
+    /* display: grid; */
+    /* grid-template-columns: 25% 50% 25%; */
+}
+/* Área da Logo */
+.header_start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.logo img, .header_start label {
+    width: 40%;
+    margin-left: 10%;
+}
+/* Inputs */
+.header_start input, .header_end input {
+    display: none;
+}
+/* Área central */
+.header_center {
+    width: 60%;
+    float:left;
+    height: 100%;
+}
+.pesquisa img {
+    width: 1.5%;
+    position: absolute;
+    right: 34%;
+    margin: 1.7% 0 0 0;
+}
+.pesquisa input[placeholder] {
+    padding: 0.5%;
+    margin: 1.9% 0 0 8%;
+    font-size: 100%;
+    width: 70%;
+}
+.inp-text {
+    background-color: #181818;
+    border-style: none;
+    border: 1px solid #3F434C;
+}
+.btn-pesq {
+    width: 8%;
+    padding: 0.8%;
+    background-color: #323232;
+    border: none;
+    cursor: pointer;
+}
+.pesquisa .fa {
+    color: #585858;
+}
+/* Área do usuario */
+.header_end {
+    width: 20%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+.end-icons {
+    margin-right: 12%;
+    font-size: 0.9rem;
+}
+
+/* .icons_menu_menor {
+    width: 20px;
+    margin-bottom: 10px;
+} */
+
+.icon-user {
+    width: 95%;
+    border-radius: 20px;
+}
+
+/* .icon-ytbr {
+    margin: 5px 0 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+} */
