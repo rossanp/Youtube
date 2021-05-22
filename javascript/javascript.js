@@ -13,9 +13,9 @@ checkbox.addEventListener('click', function () {
     let imgVideo1 = document.querySelectorAll(".img-video1");
 
     /* Modificando o CSS */
-    if (menu.style.display === 'none') {
-        menu.style.display = 'flex';
-        menu_menor.style.display = 'none';
+    if (menu_menor.style.display === 'none') {
+        menu_menor.style.display = 'block';
+        menu.style.display = 'none';
         conteudo.className = 'conteudo-video';
         video.style.marginRight = '15px';
         video.style.marginBottom = '50px';
@@ -23,8 +23,8 @@ checkbox.addEventListener('click', function () {
             imgVideo1[x].className = 'img-video';
         }
     } else {
-        menu.style.display = 'none';
-        menu_menor.style.display = 'flex';
+        menu_menor.style.display = 'none';
+        menu.style.display = 'flex';
         conteudo.className = 'conteudo-video-max';
         video.style.marginRight = '10px';
         video.style.marginBottom = '66px';

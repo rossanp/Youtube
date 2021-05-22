@@ -85,20 +85,134 @@ header {
     margin-right: 12%;
     font-size: 0.9rem;
 }
-
-/* .icons_menu_menor {
-    width: 20px;
-    margin-bottom: 10px;
-} */
-
 .icon-user {
     width: 95%;
     border-radius: 20px;
 }
+/* Menu lateral menor */
+#lateral_menor {
+    display: block;
+    margin-top: 6%;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: max-content;
+    overflow: auto;
+    background-color: #202020;
+}
+#lateral_menor li {
+    font-size: 0.6rem;
+    display: grid;
+    justify-items: center;
+}
+#lateral_menor a {
+    padding: 17px 14px;
+    display: grid;
+    justify-items: center;
+}
+.icons_menu_menor {
+    width: 20px;
+    margin-bottom: 10px;
+}
+/* Menu lateral maior */
+#menu_lateral {
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: auto;
+}
+/* #lateral, 
+#menu_lateral {
+    display: flex;
+} */
+#lateral {
+    flex-direction: column;
+    margin-top: 6%;
+    position: fixed;
+    height: 94%;
+    width: max-content;
+    overflow: auto;
+    background-color: #202020;
+}
 
+.lateral::-webkit-scrollbar-track {
+    background-color: #202020;
+}
+
+.lateral::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+
+.lateral::-webkit-scrollbar-thumb {
+    background: #313131;
+}
+.principal {
+    font-size: 0.9rem;
+    padding-top: 10px;
+}
+
+.principal a {
+    padding: 0 0 0 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-user-lateral {
+    position: absolute;
+    width: 25px;
+    border-radius: 20px;
+    left: 8%;
+}
+
+.inscricoes, .mais_ytb {
+    padding: 0 24px 0;
+}
+
+.hr {
+    border-top: 1px solid #313131;
+    margin: 15px 0 15px 0;
+}
+
+.principal a:hover ,#lateral_menor li:hover {
+    font-weight: bold;
+    background-color: #313131;
+}
+
+.empresa {
+    font-size: 0.8rem;
+    font-weight: 500; /* Colocando uma expessura maior na font pela numeração do site expecificado */
+}
+
+.sobre a, .termo a {
+    font-weight: 200;
+    font-size: small;
+    float: left;
+    padding: 0 5% 0 0;
+    /* width: 100%; */
+    height: 48%;
+    /* margin-right: 8px; */
+    color: #CFCFCF;
+}
+
+.sobre {
+    padding: 2% 0 0 10%;
+}
+
+.termo {
+    padding: 2% 0 0 10%;
+    margin-top: 10%;
+}
+.footer {
+    margin: 5% 0;
+    float: left;
+}
 /* .icon-ytbr {
     margin: 5px 0 0 0;
     width: 40px;
     height: 40px;
     border-radius: 20px;
 } */
+
+/* Acima de 980 o tamanho das letras no menu lateral param de crescer e permanecem do tamanho em diante. */
